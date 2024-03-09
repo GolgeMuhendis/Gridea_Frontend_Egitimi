@@ -1,0 +1,46 @@
+*{
+    margin:0 ;
+    padding: 0;
+    background-color:  #2B2B2B;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    font-size: 20px;
+    height: 100px;
+
+    a{
+        text-decoration: none;
+    }
+
+    .signup{
+        color: white;
+        width: 68px;
+        height: 32px;
+        
+    }
+
+    .logo{
+        color: white;
+        width: 79px;
+        height: 24px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+
+    .login{
+        background-color:  #BFAFF2;
+        margin: 25px;
+        width: 175px;
+        height: 50px;
+        border-radius: 15px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        
+    }
+}
