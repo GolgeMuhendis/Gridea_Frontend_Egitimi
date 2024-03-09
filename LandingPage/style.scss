@@ -44,3 +44,60 @@ header{
         
     }
 }
+
+
+
+.landingpage{
+    .content1{
+    
+        //height: 600px;
+        display: flex;
+        justify-content: space-between;
+        
+    
+        
+        h1{
+            color: white;
+            font-size: 60px;
+            line-height: 90px;
+            margin-top: 104px;
+            margin-left: 100px;
+            text-align: start;
+    
+    
+        }
+    
+        p{
+            color:  #4e4c4c;
+            padding-top: 310px;
+            margin-left: 100px;
+    
+        }
+    
+        a{
+            
+            width: 175px;
+            height: 40px;
+            margin-top: 446px;
+            margin-left: 100px;
+            background-color:  #F8D57E;
+            text-decoration: none  ;
+            color: #2B2B2B;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 20px;
+            border-radius: 15px;
+        }
+    
+        
+    }
+
+    .img1{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+
+
+
