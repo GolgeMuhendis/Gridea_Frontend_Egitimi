@@ -80,4 +80,10 @@ header .login {
   border: 1px;
   margin-left: 680px;
   margin-top: 77px;
+}
+
+.logos {
+  margin-top: 70px;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
