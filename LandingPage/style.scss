@@ -48,11 +48,13 @@ header{
 
 
 .landingpage{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
     .content1{
+        width: 50%;
     
         //height: 600px;
-        display: flex;
-        justify-content: space-between;
         
     
         
@@ -63,22 +65,19 @@ header{
             margin-top: 104px;
             margin-left: 100px;
             text-align: start;
-    
-    
         }
-    
         p{
             color:  #4e4c4c;
-            padding-top: 310px;
             margin-left: 100px;
-    
+            margin-top: 60px;
+            width: 40%;
         }
-    
+        
         a{
-            
+            display: block;
+            margin-top: 100px;
             width: 175px;
             height: 40px;
-            margin-top: 446px;
             margin-left: 100px;
             background-color:  #F8D57E;
             text-decoration: none  ;
@@ -93,8 +92,14 @@ header{
     }
 
     .img1{
-        display: flex;
+        
         justify-content: space-between;
+        width: 500px;
+        height: 446px;
+        border: 1px;
+        margin-left: 680px;
+        margin-top: 77px;
+
         
     }
 }
