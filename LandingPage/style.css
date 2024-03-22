@@ -42,6 +42,7 @@ header .login {
   width: 90%;
   display: flex;
   justify-content: space-between;
+  font-family: "Poppins", sans-serif;
 }
 .landingpage .content1 {
   width: 50%;
@@ -87,18 +88,21 @@ header .login {
   margin-top: 70px;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .productt {
   margin-top: 70px;
   justify-content: center;
   margin-bottom: 70px;
+  text-align: center;
 }
 
 .features {
   display: flex;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
+  margin-bottom: 70px;
 }
 .features div {
   margin: 20px;
@@ -115,4 +119,37 @@ header .login {
 .features .feature1 {
   align-items: center;
   margin-left: 5%;
+}
+
+@media (max-width: 600px) {
+  header {
+    text-align: center;
+  }
+  header a {
+    display: none;
+  }
+  .landingpage {
+    display: block;
+  }
+  .content2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .content2 img {
+    text-align: center;
+    margin-right: 20px;
+  }
+  .features {
+    display: block;
+  }
+  .productt {
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .features .feature1 {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
